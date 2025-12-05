@@ -71,7 +71,7 @@ Auto-Git-Annotate/
 ## 🔧 工作原理
 
 1. 插件在 IDE 启动时注册 `FileEditorManagerListener`
-2. 当用户打开任意文件时，监听器捕获 `fileOpened` 事件
+2. 当用户打开任意文件时\监听器捕获 `fileOpened` 事件
 3. 通过 `ActionManager` 自动执行内置的 `Annotate` 动作
 4. Git Blame 信息自动显示在编辑器左侧
 
@@ -98,4 +98,4 @@ Auto-Git-Annotate/
 
 ---
 
-**⭐ 如果这个插件对你有帮助，请给个 Star！**
+**⭐ 如果这个插件对你有帮助\请给个 Star！**
